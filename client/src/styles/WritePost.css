@@ -1,0 +1,229 @@
+/* Mobile View  */
+@media only screen and (max-width:950px){
+    .WritePost{
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WritePost-post{
+        width: 90%;
+    }
+    
+    .WritePost-title{
+        height: 7vh;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .WritePost-titleInput{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+    
+    .WritePost-editorAndImageContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 20vh;
+    }
+    
+    .editorContainer {
+        width: 100%;
+        
+    }
+    
+    .ql-container{
+        min-height: 30vh;
+    }
+    
+    .ql-toolbar{
+        text-align: left;
+        height: 40px;
+    }
+
+    .ql-formats{
+        height: 40px;
+    }
+    
+    .WritePost-imageEditorContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .WritePost-imageToolbar{
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+        padding: 8px;
+        line-height: 22px;
+        font-size: 14px;
+        color: #444;
+        height: 40px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .WritePost-uploadImage{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 8px;
+    }
+    
+    .WritePost-imageContainer{
+        border: 1px solid #ccc;
+        border-top: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 30vh;
+    }
+    
+    .WritePost-currentImage{
+        width: 100%;
+        height: auto;
+    }
+    
+    .WritePost-noImageChosen{
+        height: 150px;
+        width: 150px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WritePost-publish{
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    .saveButton{
+        margin-right: 10px;
+    }
+}
+
+/* Desktop View  */
+@media only screen and (min-width:951px){
+    .WritePost{
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WritePost-post{
+        width: 80%;
+    }
+    
+    .WritePost-title{
+        height: 7vh;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .WritePost-titleInput{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+    
+    .WritePost-editorAndImageContainer{
+        display: flex;
+        width: 100%;
+        min-height: 20vh;
+    }
+    
+    .editorContainer {
+        width: 50%;
+        
+    }
+    
+    .ql-container{
+        min-height: 30vh;
+    }
+    
+    .ql-toolbar{
+        text-align: left;
+        height: 40px;
+    }
+    
+    .WritePost-imageEditorContainer{
+        width: 50%;
+        /* border: 1px solid lightcoral; */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .WritePost-imageToolbar{
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+        padding: 8px;
+        line-height: 22px;
+        font-size: 14px;
+        color: #444;
+        height: 40px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .WritePost-uploadImage{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .WritePost-imageContainer{
+        border: 1px solid #ccc;
+        border-top: 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 30vh;
+    }
+    
+    .WritePost-currentImage{
+        width: 50%;
+        height: auto;
+    }
+    
+    .WritePost-noImageChosen{
+        height: 150px;
+        width: 150px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WritePost-publish{
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    .saveButton{
+        margin-right: 10px;
+    }
+}

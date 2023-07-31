@@ -1,0 +1,386 @@
+.App {
+  text-align: center;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.link {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Mobile View  */
+@media only screen and (max-width: 700px){
+  .actionButton{
+    border: 1px solid #6EA473;
+    color: #6EA473;
+    background-color: transparent;
+    padding: 6px;
+  }
+  
+  .actionButtonInverted{
+    color: white;
+    background-color: #6EA473;
+    border: 1px solid #6EA473;
+    padding: 6px;
+  }
+  
+  .cancelButton{
+    background-color: transparent;
+    padding: 6px;
+    border: 1px solid gray;
+    color: gray;
+  }
+  
+  /* Nav  */
+  .nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 7vh;
+    overflow: hidden;
+  }
+  
+  .navLogo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+  }
+  
+  .logoImage{
+    height: 70%;
+  }
+  
+  .gameSense{
+    margin-left: 5px;
+    letter-spacing: -1.5px;
+    color: #6EA473;
+    font-weight: bold;
+  }
+  
+  .navButtons {
+    margin-right: 5vw;
+    color: black;
+  }
+  
+  .currentUser {
+    display: none;
+  }
+  
+  .loginNav {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  .nav-CreateNewPost{
+    display: none;
+  }
+  
+  /* Footer */
+  .footer{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      height: 7vh;
+      margin-top: 50px;
+  }
+  
+  .footerLogo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Home  */
+  .home {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .homeInner {
+    width: 80%;
+    height: auto;
+    display: flex;
+  }
+  
+  .posts{
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  .post {
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+  }
+  
+  .postNav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #6EA473;
+  }
+  
+  .title{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  .postBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .postImageContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .postImage{
+    width: 100%;
+  }
+  
+  .descriptionBlock{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .description{
+    text-align: left;
+    width: 100%;
+    text-overflow: ellipsis;
+    height: 80%;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .readMoreButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    margin-top: 15px;
+  }
+  
+  .readMoreButton{
+    padding: 7px 15px;
+    color: #6EA473;
+    border: 2px solid #6EA473;
+    font-size: 12px;
+  }
+  
+}
+
+/* Desktop View  */
+@media only screen and (min-width:701px){
+  .actionButton{
+    border: 1px solid #6EA473;
+    color: #6EA473;
+    background-color: transparent;
+    padding: 6px;
+  }
+  
+  .actionButtonInverted{
+    color: white;
+    background-color: #6EA473;
+    border: 1px solid #6EA473;
+    padding: 6px;
+  }
+  
+  .cancelButton{
+    background-color: transparent;
+    padding: 6px;
+    border: 1px solid gray;
+    color: gray;
+  }
+  
+  /* Nav  */
+  .nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 7vh;
+    overflow: hidden;
+  }
+  
+  .navLogo {
+    margin-left: 10vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoImage{
+    height: 70%;
+  }
+  
+  .gameSense{
+    margin-left: 5px;
+    letter-spacing: -1.5px;
+    color: #6EA473;
+    font-weight: bold;
+  }
+  
+  .navButtons {
+    margin-right: 10vw;
+    color: black;
+  }
+  
+  .currentUser {
+    padding: 20px;
+  }
+  
+  .loginNav {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .footer{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      height: 7vh;
+      margin-top: 50px;
+  }
+  
+  .footerLogo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Home  */
+  .home {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .homeInner {
+    width: 80%;
+    height: auto;
+    display: flex;
+  }
+  
+  .posts{
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  .post {
+    margin-bottom: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+  }
+  
+  .postNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #6EA473;
+  }
+  
+  .title{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  .postBody{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .postImageContainer{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .postImage{
+    width: 100%;
+  }
+  
+  .descriptionBlock{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .description{
+    text-align: right;
+    width: 100%;
+    text-overflow: ellipsis;
+    height: 80%;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .readMoreButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    margin-top: 15px;
+  }
+  
+  .readMoreButton{
+    padding: 7px 15px;
+    color: #6EA473;
+    border: 2px solid #6EA473;
+    font-size: 12px;
+  }
+  
+}
+
+
+

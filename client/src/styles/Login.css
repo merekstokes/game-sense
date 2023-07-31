@@ -1,0 +1,167 @@
+/* Mobile View  */
+@media only screen and (max-width: 700px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+    }
+    
+    .register{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        margin-top: 10vh;
+    }
+    
+    .loginLogo{
+        height: 20vh;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .loginLogoImage{
+        height: 30%;
+    }
+    
+    .loginGameSense{
+        margin-left: 5px;
+        letter-spacing: -1.5px;
+        color: #6EA473;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    
+    .loginFormContainer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6EA473;
+        padding: 20px;
+    }
+    
+    .loginForm{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loginInput{
+        padding: 10px;
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    
+    .loginButton{
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        color: #6EA473;
+        cursor: pointer;
+    }
+
+    .backToLogin{
+        margin-top: 20px;
+    }
+    
+    .createAccount{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+    }
+}
+
+/* Desktop View  */
+@media only screen and (min-width: 701px){
+    .login{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+    }
+    
+    .register{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        margin-top: 10vh;
+    }
+    
+    .loginLogo{
+        height: 20vh;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loginLogoImage{
+        height: 30%;
+    }
+    
+    .loginGameSense{
+        margin-left: 5px;
+        letter-spacing: -1.5px;
+        color: #6EA473;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    
+    .loginFormContainer{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6EA473;
+        padding: 20px;
+    }
+    
+    .loginForm{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .loginInput{
+        padding: 10px;
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    
+    .loginButton{
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        color: #6EA473;
+        cursor: pointer;
+    }
+    
+    .createAccount{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
